@@ -1,0 +1,159 @@
+/* HashiraCard.css */
+
+/* General Card Styles */
+.bg-white {
+    background-color: #fff; /* White background for a clean look */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .max-w-5xl {
+    max-width: 80rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .ml-16 {
+    margin-left: 4rem;
+  }
+  
+  .mt-20 {
+    margin-top: 5rem;
+  }
+  
+  /* Red Borders */
+  .border-red-600 {
+    border-color: #e53e3e; /* Dark red border */
+  }
+  
+  /* Image Styles */
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  .img-bordered {
+    border: 2px solid #e53e3e; /* Red border */
+  }
+  
+  /* Typography */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-gray-800 {
+    color: #2d3748; /* Darker gray for better readability */
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .md\:flex-row {
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+  
+  .md\:w-1\/3 {
+    @media (min-width: 768px) {
+      width: 33.333333%;
+    }
+  }
+  
+  .md\:w-2\/3 {
+    @media (min-width: 768px) {
+      width: 66.666667%;
+    }
+  }
+  
+  .md\:pl-6 {
+    @media (min-width: 768px) {
+      padding-left: 1.5rem;
+    }
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  /* Horizontal Line */
+  .hr {
+    border: 0;
+    border-top: 1px solid #e53e3e; /* Dark red line */
+  }
+  
+  .my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Power Description Section */
+  .power-description-section {
+    border: 2px solid #e53e3e; /* Darker red border */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff; /* White background for consistency */
+  }
+  

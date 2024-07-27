@@ -11,7 +11,7 @@ const Hashira = () => {
         <div
           style={{ backgroundImage: 'url(https://images3.alphacoders.com/132/1328547.png)' }}
         >
-          <a href="/">
+          <a href="/renguko">
             <LCard />
           </a>
         </div>
