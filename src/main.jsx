@@ -6,6 +6,7 @@ import Layout from './Layout.jsx';
 import Hashira from './components/Hashira.jsx';
 import Home from './components/Home.jsx';
 import './index.css';
+import HashiraPage from './components/description/HashiraPage.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path='Hashira' element={<Hashira />} />
       <Route path='Demon' element={<Hashira />} />
+      <Route path='rengoku' element={<HashiraPage/>}/>
     </Route>
   )
 );
